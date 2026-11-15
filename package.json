@@ -1,0 +1,8 @@
+{
+  "name": "cactus-mexican-cuisine",
+  "version": "1.0.0",
+  "description": "Cactus Mexican Cuisine Bar & Grill — Mexican restaurant and bar at 3450 Old Salisbury Rd, Winston-Salem NC (static site + node form relay)",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

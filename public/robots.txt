@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cactus-mexican-cuisine-demo.up.railway.app/sitemap.xml
