@@ -100,13 +100,13 @@ y += 26
 s1 = sans(23)
 d.text((L*S, y*S), "Authentic Mexican · Tex-Mex Favorites", font=s1, fill=SAND)
 y += 34
-d.text((L*S, y*S), "Handcrafted Drinks · The bar opens too", font=s1, fill=SAND)
+d.text((L*S, y*S), "Handcrafted Drinks · Bar & Grill", font=s1, fill=SAND)
 
 # ---- measured clearance proof ----
 def tw(f, s): return f.getlength(s)/S
 right = max(tw(k, kicker), tw(t1, "Cactus"), tw(t2, "Mexican Cuisine"),
             tw(t2, "Bar & Grill"), tw(s1, "Authentic Mexican · Tex-Mex Favorites"),
-            tw(s1, "Handcrafted Drinks · The bar opens too")) + L
+            tw(s1, "Handcrafted Drinks · Bar & Grill")) + L
 print("text right edge:", round(right), "| art left edge:", cx0, "| clearance:", cx0 - round(right))
 assert right < cx0 - 30, "text collides with cactus art"
 
