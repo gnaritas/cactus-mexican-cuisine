@@ -20,7 +20,6 @@ header.site{background:var(--green);color:var(--sand);border-bottom:4px solid va
 header nav{display:flex;flex-wrap:wrap;align-items:center;gap:8px 22px}
 header nav a{color:#e9dcc2;text-decoration:none;font-size:13.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:6px 0;border-bottom:2px solid transparent}
 header nav a:hover{border-bottom-color:var(--gold);color:#fff}
-header nav a.btn{border-bottom:0}
 
 /* papel picado band — shop's own bunting, pure CSS */
 .picado{height:18px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='18'%3E%3Crect width='96' height='5' fill='%23e0a132'/%3E%3Cpath d='M5 5h17L13.5 18z' fill='%23bf4429'/%3E%3Cpath d='M29 5h17L37.5 18z' fill='%23e0a132'/%3E%3Cpath d='M53 5h17L61.5 18z' fill='%232c6539'/%3E%3Cpath d='M77 5h17L85.5 18z' fill='%23bf4429'/%3E%3C/svg%3E") repeat-x left top/96px 18px;background-color:var(--paper)}
